@@ -6,6 +6,7 @@ This took us time.
 My idea is to create an interactive map, where instead of checking each store to see if it is open, 
 the map would only recommend the shops that are still opened. This way, by just opening the map, 
 we would directly see which store to go to. 
+
 The target audience would be very large. 
 It could be for young people going out, 
 or for people who own dogs and want to buy medicine for their dogs at times where they are not sure which store is opened.
@@ -17,4 +18,8 @@ The map will change during time.
 So for example, if I wake up early and I want to go to a bakery to buy me some croissants, 
 I won't have to check every bakery in Paris and see which are opened, I will directly see it thanks to the evolving map.
 
+The methodology is simple. The algorithm takes the data, locatio  of store and opening hours. 
+Then it takes the time of the request, so for example it can be the current time, or if you want to know which bakery will be opened at 7am the next morning you can enter 7am.
+And the algorithm searches for the store you request, it could be a gas station, a pharmacy, etc. Then it shows you the map, and only appear the store which are opened at that time.
 
+This could be very useful for people, and save time.
